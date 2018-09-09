@@ -1,0 +1,46 @@
+.searchBox__form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.searchBox__button {
+    text-decoration: none;
+    padding: 0;
+    border: none;
+    margin: 0 0 0 .5rem;
+    border-radius: .9rem; 
+    font-size: 1.5rem;
+    background-color: $light-grey;
+    color: $off-black;
+    &:hover {
+        cursor: pointer;
+        border-radius: 1.1rem;
+        transition: border-radius ease-in .2s;
+    }
+}
+.searchBox__input {
+    color: $off-black;
+    text-decoration: none;
+    border: none;
+    border-radius: .7rem; 
+    border: .15rem $light-grey solid;
+    padding: .3rem;
+}
+.magnifying-glassBox {
+    margin: 0;
+    padding: 0 .6rem;
+    &:hover {
+        padding: .2rem .8rem;
+        transition: padding ease-in .3s;
+    }
+}
+.magnifying-glass {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  
+  margin: 0;
+  padding: 0;
+}

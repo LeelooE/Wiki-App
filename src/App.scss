@@ -1,0 +1,10 @@
+@import './styles/settings';
+@import './styles/container';
+@import './styles/quote';
+@import './styles/lineBreak';
+@import './styles/random';
+@import './styles/searchBox';
+@import './styles/results';
+body {
+    background-color: $off-white; 
+}

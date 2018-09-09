@@ -1,0 +1,12 @@
+.quote {
+    margin: $s-size $l-size 0 $l-size;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: $off-black;
+    font-family: $f-bottom;
+    @media (min-width: $desktop-breakpoint) {
+        margin: $s-size 25rem 0 25rem;
+      }
+}
